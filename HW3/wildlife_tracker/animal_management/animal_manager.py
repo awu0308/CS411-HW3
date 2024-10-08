@@ -1,9 +1,6 @@
 from typing import Optional
 
-from wildlife_tracker.animal_managment.animal import Animal
-
 class AnimalManager:
-
     def __init__(self) -> None:
         animals: dict[int, Animal] = {}
 

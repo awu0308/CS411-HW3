@@ -1,7 +1,6 @@
 from typing import Any, List, Optional
 
 class Habitat:
-
     def __init__(self,
                 habitat_id: int,
                 geographic_area: str,
