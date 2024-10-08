@@ -1,5 +1,7 @@
 from typing import Any
 
+from wildlife_tracker.migration_tracking.migration_path import MigrationPath
+
 class Migration:
     def __ini__(self, migration_id: int, status: str = "Scheduled", current_date: str, current_location: str, migration_path: MigrationPath
 , start_date: str, ) -> None:
